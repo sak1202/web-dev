@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outdoor>
+    <sport>Football
+        <players>11</players>
+        <items>ball</items>
+    </sport>
+    <sport>cricket
+        <players>11</players>
+        <items>bat-ball</items>
+    </sport>
+    <sport>hockey
+        <players>7</players>
+        <items>hockeystick-ball</items>
+    </sport>
+     <sport>golf
+        <players>1 0r 2</players>
+        <items>golfstick-ball</items>
+    </sport>    
+</outdoor>

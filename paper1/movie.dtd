@@ -1,0 +1,6 @@
+<!DOCTYPE bollywood[
+<!ELEMENT bollywood(movie,actor,actress)>
+<!ELEMENT movie(#PCDATA)>
+<!ELEMENT actor(#PCDATA)>
+<!ELEMENT actress(#PCDATA)>
+]>

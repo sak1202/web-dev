@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bf.xsl"?>
+<breakfast>
+    <item>Pancakes
+        <price>Rs 20</price>
+        <rating>4</rating>
+    </item>
+    <item>Waffles
+        <price>Rs 30</price>
+        <rating>4.5</rating>
+    </item>
+    <item>Chapati
+        <price>Rs 2</price>
+        <rating>4</rating>
+    </item>
+    <item>Poha
+        <price>Rs 10</price>
+        <rating>4</rating>
+    </item>
+    <item>Coffee
+        <price>Rs 5</price>
+        <rating>4</rating>
+    </item>
+</breakfast>

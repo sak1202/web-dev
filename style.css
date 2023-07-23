@@ -1,0 +1,74 @@
+#calc {
+    height: 450px;
+    width: 300px;
+    margin-left: 38%;
+    padding: 40px 20px;
+    background-color: #72b9c8;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+
+#title{
+  margin-left: 72px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+#result{
+  background-color: azure;
+  height: 80px;
+  color:black;
+  font-size: xx-large;
+  text-align: center;
+}
+
+#num1{
+  background-color: azure;
+  height:40px;
+  width:70%;
+  }
+
+#number1{
+  background-color: azure;
+  text-align: right;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#num2{
+  background-color: azure;
+  height:40px;
+  width:70%;
+  }
+
+#number2{
+  background-color: azure;
+  text-align: right;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#add{
+height:40px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+font-size: x-large;
+}
+
+#sub{
+  height:40px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  font-size: x-large;
+  }
+
+  #mul{
+    height:40px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    }
+
+    #div{
+      height:40px;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      font-size: x-large;
+      }

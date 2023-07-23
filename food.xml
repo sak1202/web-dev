@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="food.xsl"?>
+<menu>
+    <dish>
+        <name>coffee</name>
+        <price>rs 20</price>
+        <rating>4</rating>
+    </dish>
+    <dish>
+        <name>tea</name>
+        <price>rs 10</price>
+        <rating>3.5</rating>
+    </dish>
+    <dish>
+        <name>juice</name>
+        <price>rs 50</price>
+        <rating>3</rating>
+    </dish>
+</menu>

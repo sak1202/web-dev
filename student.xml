@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<!DOCTYPE details[
+ <!ELEMENT details(student*)>
+ <!ELEMENT student (name,class,roll,marks)>
+ <!ELEMENT class (#PCDATA)>
+ <!ELEMENT roll (#PCDATA)>
+ <!ELEMENT marks (#PCDATA)>
+
+ <!ATTLIST class dept CDATA "IT*">
+]>
+<details>
+<student>
+<name>Sakshi</name>
+<class dept="IT">TE</class>
+<roll>41</roll>
+<marks>25</marks>
+</student>
+<student>
+<name>Kashyapee</name>
+<class dept="IT">TE</class>
+<roll>22</roll>
+<marks>25</marks>
+</student>
+</details>

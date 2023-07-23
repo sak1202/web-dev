@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="newtry.xsl"?>
+<teit>
+    <sub> 
+    <subname>Web tech</subname>
+    <subcode>12</subcode>
+    <maxmarks>100</maxmarks>
+    </sub>
+    <sub>
+     <subname>POC</subname>
+    <subcode>13</subcode>
+    <maxmarks>100</maxmarks>
+    </sub>
+</teit>

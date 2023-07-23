@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book[
+    <!ELEMENT book (title,chapter)>
+    <!ELEMENT title (chapter*)>
+    <!ELEMENT chapter (#PCDATA)>
+
+    <!ATTLIST book author ENTITY "Tanenbaum">
+    <!ATTLIST chapter id CDATA #REQUIRED> 
+]>
+
+<book author="Tanenbaum">
+<title>CN
+<chapter id="1">7 netwrok protocol</chapter>
+<chapter id="2">physical layer</chapter>
+</title>
+</book> 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head><title>SLIDES</title>
+<style>
+    #slide{
+        height:200px;
+        width:300px;
+        text-align: center;
+        background-color:rgb(217, 43, 226);
+    }
+    #click{
+        height:200px;
+        width:200px;
+        background-color: blueviolet;
+        color: black;
+    }
+</style>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js></script>
+<script>
+    $(document).ready(function(){
+        $("#click").click(function(){
+            $("#slide").slideToggle("fast");
+        });
+    });
+</script></head>
+<body>
+    <div id="slide">hiii</div>
+    
+    <div id="click"></div>
+</body>

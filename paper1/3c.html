@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head><title>animate</title>
+    <style>
+        #box{
+            width:100px;
+            height:100px;
+            background-color: blueviolet;
+            
+        }
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#box").animate({
+                width: "400px",
+                height:"200px"
+            });
+        });
+    });
+</script></head>
+<body>
+    <div id="box"></div>
+    <button >CLICK</button>
+</body></html>

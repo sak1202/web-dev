@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head><title>FADES</title>
+<style>
+    #box,#box1,#box2{
+        height:100px;
+        width:100px;
+        margin-left:3px;
+        background-color: rgb(49, 154, 128);
+    }
+    
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+            $("#box").fadeOut();
+        });
+        $("#btn").click(function(){
+            $("#box1").fadeOut();
+        });
+        $("#btn").click(function(){
+            $("#box2").fadeOut();
+        });
+    });
+</script></head>
+<body>
+    <div id="box"></div><br>
+    <div id="box1"></div><br>
+    <div id="box2"></div><br>
+    <button id="btn">CLICK HERE TO FADE</button>
+</body>

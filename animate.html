@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head><title>ANIMATE</title>
+<style>
+    #box{
+        height:200px;
+        width:200px;
+        background-color:rgb(19, 140, 122);
+        margin-left: 70px;
+        position: absolute;
+    }
+</style>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            var box=$("#box");
+            box.animate({left:'200px'},'slow');
+            box.animate({top:'200px'},'slow');
+            box.animate({left:'70px'},'slow');
+            box.animate({top:'70px'},'slow')
+        });
+    });
+</script></head>
+<body>
+    <button>CLICK</button>
+        <div id="box"></div>
+</body>
+</html>

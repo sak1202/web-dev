@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head><title>GET_SET</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#text").click(function(){
+            alert("Text:"+$("p").text());
+        });
+        $("#html").click(function(){
+            alert("HTML:"+$("p").html());
+        });
+        $("#value").click(function(){
+            alert("Value:"+$("#hii").val());
+        })
+    })
+</script></head>
+<body>
+    <p>This is the heading with a <b>bold</b> and <i>italics</i> word.</p>
+    <input type="text" id="hii">
+    <button id="text">Get Text</button>
+    <button id="value">Get Value</button>
+    <Button id="html">Get HTML</Button>
+
+</body>
+</html>

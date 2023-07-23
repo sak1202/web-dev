@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Hide show</title>
+    <style>
+        #box{
+            height:100px;
+            width:100px;
+            background-color: blueviolet;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("#box").hide();
+            });
+            $("#show").click(function(){
+                $("#box").show();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="box"></div>
+    <br>
+    <button id="hide">HIDE</button>
+    <button id="show">SHOW</button>
+</body>

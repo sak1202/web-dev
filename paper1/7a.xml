@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bollywood SYSTEM "movie.dtd">
+
+<bollywood>
+<movie>YJHD
+<actor>Ranbir Kapoor</actor>
+<actress>Deepika Padukone</actress>
+</movie>
+<movie>DDLJ
+<actor>SRK</actor>
+<actress>Kajol</actress>
+</movie>
+</bollywood>

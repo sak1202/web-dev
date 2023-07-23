@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sakshi.xsl"?>
+<class>
+<student>
+<name>Sakshi</name>
+<rollno>41</rollno>
+<dept>IT</dept>
+</student>
+
+<student>
+<name>Shivam</name>
+<rollno>51</rollno>
+<dept>IT</dept>
+</student>
+
+<student>
+<name>Samarth</name>
+<rollno>42</rollno>
+<dept>IT</dept>
+</student>
+</class>
